@@ -22,6 +22,12 @@ namespace TaskPuddle
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
+            routes.MapRoute(
+                "Task", // Route name
+                "{controller}/{action}/{id}", // URL with parameters
+                new { controller = "Task", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+            );
+
         }
 
         protected void Application_Start()
