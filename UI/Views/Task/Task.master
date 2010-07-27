@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Views/Shared/Site.Master" AutoEventWireup="true" CodeBehind="Task.master.cs" Inherits="UI.Views.Task.task" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
+    <asp:ContentPlaceHolder ID="TaskTitleContent" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="HeaderContent" runat="server">
+    <link href="../../Content/Task.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="TaskHeaderContent" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:ContentPlaceHolder ID="TaskMainContent" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="FooterContent" runat="server">
+    <asp:ContentPlaceHolder ID="TaskFooterContent" runat="server" />
+</asp:Content>

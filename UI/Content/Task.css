@@ -3,11 +3,32 @@ The base color for this template is #5c87b2. If you'd like
 to use a different color start by replacing all instances of
 #5c87b2 with your new color.
 ----------------------------------------------------------*/
+/* this rule styles <h2> tags that are the 
+first child of the left and right table columns */
 
-body
+.descriptionarea
 {
-    background-color: #5c87b2;
-    font-size: .75em;
+    width: 800px;
+    height: 300px;
+    font-family: Verdana, Helvetica, Sans-Serif;
+}
+
+.textbox
+{
+    width: 800px;
+    font-family: Verdana, Helvetica, Sans-Serif;
+}
+
+.taskbody > h1, .taskbody > h2
+{
+    margin-top: 0;
+    color: RED;
+}
+
+#taskbody
+{
+    
+    font-size: .35em;
     font-family: Verdana, Helvetica, Sans-Serif;
     margin: 0;
     padding: 0;
